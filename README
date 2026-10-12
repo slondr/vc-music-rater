@@ -2,3 +2,16 @@ The goal:
 
 1. react (typescript) frontend
 2. rails (api-only) backend
+
+Features:
+- users exist
+- admins exist
+- admins can add master records from discogs api
+- all users can rate master records
+  - rating happens relatively, not by entering a statistic
+	- numerical ratings are generated based on relative ranking, within 3 buckets (good/bad/meh)
+
+Data model:
+- users
+- master records
+- ratings
